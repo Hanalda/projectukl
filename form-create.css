@@ -1,0 +1,63 @@
+body{
+    background-image: url(../pict/sport.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 45px;
+    font-family: "Helvetica";
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+section#input-form{
+    position: relative;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    border-radius: 15px;
+    background-color: #5f9eA0;
+    box-shadow: 0 0 7px 0px rgba(136,146,146,0.2);
+    padding: 30px;
+}
+#input-form .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+input{
+    font-family: 'Helvetica', sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.button{
+    background-color: #483D8B;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

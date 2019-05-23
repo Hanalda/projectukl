@@ -1,0 +1,29 @@
+body{
+    background-image: url("../pict/unnamed.jpg");
+    background-size: cover;
+    background-color: wheat;
+    margin: 0;
+    font-family: arial black;
+    font-size: center;   
+}
+h1{
+    color: black;
+    background-color: #5f9ea0;
+    padding: 10px 10px;
+    margin: -10px -50px;
+    text-align: center;
+}
+.button{
+     background-color: #5F9EA0;
+     border: none;
+     color: white;
+     padding: 30px 50px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 25px;
+     margin: 4px 2px;
+     margin-top: 150px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+}
